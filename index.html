@@ -5,39 +5,38 @@
     <meta charset="utf-8">
     <style>
       /* GLOBAL STYLES */
-      a {
-        color: rgba(220, 140, 245, 0.2);
-      }
-      html, body {
-        margin: 0;
-        padding: 0;
-      }
       h1 {
+        font-size: 7vw;
         margin-top: 0;
       }
-      h2 {
-        font-size: 30px;
+      a {
+        color: #f00;
+      }
+
+      /* HERO STYLES */
+      .full-hero {
+        background-color: #c7dbfc;
+        height: 50vh;
       }
 
       /* SOCIAL STYLES */
       .social-link {
         background: rgba(150, 150, 150, 0.5);
-        color: #00f;
+        color: blue;
         display: inline-block;
         height: 36px;
-        width: 36px;
-      }
-      .show {
-        display: block;
       }
 
       /* BIO STYLES */
       .bio-wrapper {
+        font-size: 24px;
       }
       .bio-box {
-        border: 10px solid #000;
+        border: 1px solid black;
+        float: left;
         font-size: 1rem;
-        width: 50%;
+        padding: 2%;
+        width: 25%;
       }
       .bio-box h3 {
         font-size: 1.5em;
@@ -46,35 +45,7 @@
         font-size: 1em;
       }
       .bio-copy a {
-        color: #080;
-      }
-      div.bio-box {
-        border: 1px solid #080;
-      }
-
-      /* HERO STYLES */
-      .full-hero {
-        background-color: #c7dbfc;
-        height: 50vh;
-      }
-      .full-hero li {
-        display: inline;
-      }
-
-      /* TEST BOX STYLES */
-      .test-box {
-        background: #9db6dd;
-        margin: 50px;
-        width: 200px;
-      }
-      .test-box-nosizing {
-        border: 10px solid #000;
-        padding: 40px;
-      }
-      .test-box-sizing {
-        box-sizing: border-box;
-        margin-top: 100px;
-        width: auto;
+        color: green;
       }
     </style>
   </head>
@@ -94,17 +65,6 @@
       </ul>
     </div>
     <h2>I'm an h2</h2>
-
-    <div class="test-box">
-      200px wide
-    </div>
-    <div class="test-box test-box-nosizing">
-      200px wide + border + padding = 300px
-    </div>
-    <div class="test-box test-box-nosizing test-box-sizing">
-      200px wide + border + padding + box-sizing: border-box = 200px
-    </div>
-
     <div class="bio-wrapper">
       <div class="bio-box">
         <h3>Michael Hartl</h3>
