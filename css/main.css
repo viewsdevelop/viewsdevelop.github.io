@@ -88,6 +88,9 @@ a {
 .header-nav > li:first-child a:hover {
   color: #000;
 }
+.header-nav > li:last-child a {
+  color: #ed6e2f;
+}
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
