@@ -107,9 +107,10 @@ h2 ~ p {
 }
 .header-logo {
   background-color: #000;
-  height: 110px;
+  left: 50%;
   position: absolute;
-  width: 110px;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* HERO STYLES */
