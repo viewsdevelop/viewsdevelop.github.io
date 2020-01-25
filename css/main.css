@@ -69,6 +69,9 @@ h2 ~ p {
 .header {
   background-color: #000;
   color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
 }
 .header-logo {
   background-color: #000;
