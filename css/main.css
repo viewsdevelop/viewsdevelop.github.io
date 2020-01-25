@@ -67,10 +67,25 @@ h2 ~ p {
 
 /* HEADER STYLES */
 .header {
-  background-color: #aaa;
-  height: 300px;
+  background-color: #000;
+  color: #fff;
+}
+.header-logo {
+  background-color: #000;
+  box-sizing: border-box;
+  display: block;
+  height: 10vh;
+  padding-top: 10px;
   position: relative;
-  width: 100%;
+  text-align: center;
+  width: 10vh;
+}
+.header-logo:hover,
+.header-logo:active {
+  background-color: #ed6e2f;
+}
+.header-logo img {
+  width: 4.3vh;
 }
 .header-nav {
   float: right;
@@ -81,11 +96,11 @@ h2 ~ p {
   margin-left: 1em;
 }
 .header-nav > li ~ li {
-  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
   padding-left: 1em;
 }
 .header-nav a {
-  color: #000;
+  color: #fff;
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
@@ -95,22 +110,11 @@ h2 ~ p {
 .header-nav a:active {
   color: #ed6e2f;
 }
-.header-logo:hover,
-.header-logo:active {
-  opacity: 0.5;
-}
 .header-nav > li:first-child a {
   color: #ed6e2f;
 }
 .header-nav > li:first-child a:hover {
-  color: #000;
-}
-.header-logo {
-  background-color: #000;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  color: #fff;
 }
 
 /* HERO STYLES */
