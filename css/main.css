@@ -162,7 +162,7 @@ h2 ~ p {
 }
 .full-hero:after {
   border: 10px solid;
-  border-color: #000 red purple blue;
+  border-color: #fff transparent transparent;
   bottom: 2vh;
   content: "";
   height: 0;
