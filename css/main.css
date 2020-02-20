@@ -256,6 +256,8 @@ h2 ~ p {
   padding: 7vh 0;
 }
 .callout-title {
+  flex-grow: 1;
+  flex-basis: 0;
   font-size: 5.75vw;
   text-align: right;
   text-transform: uppercase;
