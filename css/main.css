@@ -250,7 +250,7 @@ h2 ~ p {
   text-align: center;
 }
 .home-callout {
-  align-center: center;
+  align-items: center;
   background-color: #000;
   color: #fff;
   display: flex;
