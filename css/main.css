@@ -249,8 +249,10 @@ h2 ~ p {
   text-align: center;
 }
 .home-callout {
+  align-center: center;
   background-color: #000;
   color: #fff;
+  display: flex;
   padding: 7vh 0;
 }
 .callout-title {
