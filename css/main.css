@@ -521,6 +521,19 @@ h4 {
     left: auto;
   }
 
+  /* HOME STYLES */
+  .home-callout {
+    flex-direction: column;
+  }
+  .callout-copy {
+    flex: 1;
+  }
+  .bio-box {
+    float: none;
+    font-size: 1.3rem;
+    width: auto;
+  }
+
   /* BLOG STYLES */
   .post-aside {
     display: none;
