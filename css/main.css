@@ -534,11 +534,6 @@ h4 {
     width: auto;
   }
 
-  /* BLOG STYLES */
-  .post-aside {
-    display: none;
-  }
-
   /* GALLERY STYLES */
   .gallery {
     flex-direction: column;
@@ -562,5 +557,13 @@ h4 {
   }
   .gallery .gallery-info {
     flex: 1;
+  }
+
+  /* BLOG STYLES */
+  .blog-recent {
+    display: none;
+  }
+  .blog-previews {
+    padding: 0;
   }
 }
