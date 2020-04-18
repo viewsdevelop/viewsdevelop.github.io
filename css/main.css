@@ -572,8 +572,12 @@ h4 {
   }
 
   /* BLOG STYLES */
-  .blog-recent {
-    display: none;
+  .col-two {
+    flex-direction: column;
+  }
+  .col-two .col-aside{
+    order: 0;
+    text-align: center;
   }
   .blog-previews {
     padding: 0;
