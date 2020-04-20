@@ -151,6 +151,12 @@ h4 {
   color: #fff;
 }
 
+/* MOBILE MENU */
+.mobile-menu-check,
+.show-mobile-menu {
+  display: none;
+}
+
 /* DROPDOWN STYLES */
 .dropdown {
   position: relative;
