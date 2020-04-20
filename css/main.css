@@ -625,6 +625,24 @@ h4 {
     left: auto;
   }
 
+  /* MOBILE MENU */
+  .show-mobile-menu {
+    display: block;
+    float: right;
+    margin-top: 1.5vh;
+    padding: 1.5em;
+    position: relative;
+  }
+  .header-nav{
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .mobile-menu-check:checked ~ .header-nav {
+    max-height: 1000px;
+  }
+
   /* HOME STYLES */
   .home-callout {
     flex-direction: column;
