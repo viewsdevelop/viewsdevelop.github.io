@@ -462,6 +462,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .bio-box h3 {
   color: #fff;
+  font-family: 'Nunito', helvetica, arial, sans;
   font-size: 1.5em;
   margin: -40px 0 1em;
   text-align: center;
